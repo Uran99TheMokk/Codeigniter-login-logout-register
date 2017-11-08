@@ -1,6 +1,6 @@
 <?php
 /**
- * CodeIgniter
+ * Uran99
  *
  * An open source application development framework for PHP
  *
@@ -26,12 +26,12 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  *
- * @package	CodeIgniter
+ * @package	Uran99
  * @author	EllisLab Dev Team
  * @copyright	Copyright (c) 2008 - 2014, EllisLab, Inc. (http://ellislab.com/)
  * @copyright	Copyright (c) 2014 - 2015, British Columbia Institute of Technology (http://bcit.ca/)
  * @license	http://opensource.org/licenses/MIT	MIT License
- * @link	http://codeigniter.com
+ * @link	http://Uran99.com
  * @since	Version 1.0.0
  * @filesource
  */
@@ -47,11 +47,11 @@ if ( ! function_exists('xml_parser_create'))
 /**
  * XML-RPC request handler class
  *
- * @package		CodeIgniter
+ * @package		Uran99
  * @subpackage	Libraries
  * @category	XML-RPC
  * @author		EllisLab Dev Team
- * @link		http://codeigniter.com/user_guide/libraries/xmlrpc.html
+ * @link		http://Uran99.com/user_guide/libraries/xmlrpc.html
  */
 class CI_Xmlrpc {
 
@@ -165,7 +165,7 @@ class CI_Xmlrpc {
 	 *
 	 * @var	string
 	 */
-	public $xmlrpcName		= 'XML-RPC for CodeIgniter';
+	public $xmlrpcName		= 'XML-RPC for Uran99';
 
 	/**
 	 * XML-RPC version
@@ -559,7 +559,7 @@ class CI_Xmlrpc {
  *
  * @category	XML-RPC
  * @author		EllisLab Dev Team
- * @link		http://codeigniter.com/user_guide/libraries/xmlrpc.html
+ * @link		http://Uran99.com/user_guide/libraries/xmlrpc.html
  */
 class XML_RPC_Client extends CI_Xmlrpc
 {
@@ -761,7 +761,7 @@ class XML_RPC_Client extends CI_Xmlrpc
  *
  * @category	XML-RPC
  * @author		EllisLab Dev Team
- * @link		http://codeigniter.com/user_guide/libraries/xmlrpc.html
+ * @link		http://Uran99.com/user_guide/libraries/xmlrpc.html
  */
 class XML_RPC_Response
 {
@@ -1010,7 +1010,7 @@ class XML_RPC_Response
  *
  * @category	XML-RPC
  * @author		EllisLab Dev Team
- * @link		http://codeigniter.com/user_guide/libraries/xmlrpc.html
+ * @link		http://Uran99.com/user_guide/libraries/xmlrpc.html
  */
 class XML_RPC_Message extends CI_Xmlrpc
 {
@@ -1629,7 +1629,7 @@ class XML_RPC_Message extends CI_Xmlrpc
  *
  * @category	XML-RPC
  * @author		EllisLab Dev Team
- * @link		http://codeigniter.com/user_guide/libraries/xmlrpc.html
+ * @link		http://Uran99.com/user_guide/libraries/xmlrpc.html
  */
 class XML_RPC_Values extends CI_Xmlrpc
 {

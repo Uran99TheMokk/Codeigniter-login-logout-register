@@ -1,6 +1,6 @@
 <?php
 /**
- * CodeIgniter
+ * Uran99
  *
  * An open source application development framework for PHP
  *
@@ -26,27 +26,27 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  *
- * @package	CodeIgniter
+ * @package	Uran99
  * @author	EllisLab Dev Team
  * @copyright	Copyright (c) 2008 - 2014, EllisLab, Inc. (http://ellislab.com/)
  * @copyright	Copyright (c) 2014 - 2015, British Columbia Institute of Technology (http://bcit.ca/)
  * @license	http://opensource.org/licenses/MIT	MIT License
- * @link	http://codeigniter.com
+ * @link	http://Uran99.com
  * @since	Version 3.0.0
  * @filesource
  */
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 /**
- * CodeIgniter Encryption Class
+ * Uran99 Encryption Class
  *
  * Provides two-way keyed encryption via PHP's MCrypt and/or OpenSSL extensions.
  *
- * @package		CodeIgniter
+ * @package		Uran99
  * @subpackage	Libraries
  * @category	Libraries
  * @author		Andrey Andreev
- * @link		http://codeigniter.com/user_guide/libraries/encryption.html
+ * @link		http://Uran99.com/user_guide/libraries/encryption.html
  */
 class CI_Encryption {
 

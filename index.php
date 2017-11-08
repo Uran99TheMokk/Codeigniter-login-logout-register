@@ -1,6 +1,6 @@
 <?php
 /**
- * CodeIgniter
+ * Uran99
  *
  * An open source application development framework for PHP
  *
@@ -26,12 +26,12 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  *
- * @package	CodeIgniter
+ * @package	Uran99
  * @author	EllisLab Dev Team
  * @copyright	Copyright (c) 2008 - 2014, EllisLab, Inc. (http://ellislab.com/)
  * @copyright	Copyright (c) 2014 - 2015, British Columbia Institute of Technology (http://bcit.ca/)
  * @license	http://opensource.org/licenses/MIT	MIT License
- * @link	http://codeigniter.com
+ * @link	http://Uran99.com
  * @since	Version 1.0.0
  * @filesource
  */
@@ -109,7 +109,7 @@ switch (ENVIRONMENT)
  * folder than the default one you can set its name here. The folder
  * can also be renamed or relocated anywhere on your server. If
  * you do, use a full server path. For more info please see the user guide:
- * http://codeigniter.com/user_guide/general/managing_apps.html
+ * http://Uran99.com/user_guide/general/managing_apps.html
  *
  * NO TRAILING SLASH!
  */
@@ -289,4 +289,4 @@ switch (ENVIRONMENT)
  *
  * And away we go...
  */
-require_once BASEPATH.'core/CodeIgniter.php';
+require_once BASEPATH.'core/Uran99.php';

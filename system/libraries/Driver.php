@@ -1,6 +1,6 @@
 <?php
 /**
- * CodeIgniter
+ * Uran99
  *
  * An open source application development framework for PHP
  *
@@ -26,24 +26,24 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  *
- * @package	CodeIgniter
+ * @package	Uran99
  * @author	EllisLab Dev Team
  * @copyright	Copyright (c) 2008 - 2014, EllisLab, Inc. (http://ellislab.com/)
  * @copyright	Copyright (c) 2014 - 2015, British Columbia Institute of Technology (http://bcit.ca/)
  * @license	http://opensource.org/licenses/MIT	MIT License
- * @link	http://codeigniter.com
+ * @link	http://Uran99.com
  * @since	Version 1.0.0
  * @filesource
  */
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 /**
- * CodeIgniter Driver Library Class
+ * Uran99 Driver Library Class
  *
  * This class enables you to create "Driver" libraries that add runtime ability
  * to extend the capabilities of a class via additional driver objects
  *
- * @package		CodeIgniter
+ * @package		Uran99
  * @subpackage	Libraries
  * @category	Libraries
  * @author		EllisLab Dev Team
@@ -90,7 +90,7 @@ class CI_Driver_Library {
 	 */
 	public function load_driver($child)
 	{
-		// Get CodeIgniter instance and subclass prefix
+		// Get Uran99 instance and subclass prefix
 		$prefix = config_item('subclass_prefix');
 
 		if ( ! isset($this->lib_name))
@@ -194,12 +194,12 @@ class CI_Driver_Library {
 // --------------------------------------------------------------------------
 
 /**
- * CodeIgniter Driver Class
+ * Uran99 Driver Class
  *
  * This class enables you to create drivers for a Library based on the Driver Library.
  * It handles the drivers' access to the parent library
  *
- * @package		CodeIgniter
+ * @package		Uran99
  * @subpackage	Libraries
  * @category	Libraries
  * @author		EllisLab Dev Team

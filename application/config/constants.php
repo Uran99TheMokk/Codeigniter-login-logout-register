@@ -57,7 +57,7 @@ define('SHOW_DEBUG_BACKTRACE', TRUE);
 | Used to indicate the conditions under which the script is exit()ing.
 | While there is no universal standard for error codes, there are some
 | broad conventions.  Three such conventions are mentioned below, for
-| those who wish to make use of them.  The CodeIgniter defaults were
+| those who wish to make use of them.  The Uran99 defaults were
 | chosen for the least overlap with these conventions, while still
 | leaving room for others to be defined in future versions and user
 | applications.

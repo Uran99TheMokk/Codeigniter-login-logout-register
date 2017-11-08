@@ -1,6 +1,6 @@
 <?php
 /**
- * CodeIgniter
+ * Uran99
  *
  * An open source application development framework for PHP
  *
@@ -26,12 +26,12 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  *
- * @package	CodeIgniter
+ * @package	Uran99
  * @author	EllisLab Dev Team
  * @copyright	Copyright (c) 2008 - 2014, EllisLab, Inc. (http://ellislab.com/)
  * @copyright	Copyright (c) 2014 - 2015, British Columbia Institute of Technology (http://bcit.ca/)
  * @license	http://opensource.org/licenses/MIT	MIT License
- * @link	http://codeigniter.com
+ * @link	http://Uran99.com
  * @since	Version 3.0.0
  * @filesource
  */
@@ -44,11 +44,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
  * creates dynamically based on whether the query builder
  * class is being used or not.
  *
- * @package		CodeIgniter
+ * @package		Uran99
  * @subpackage	Drivers
  * @category	Database
  * @author		EllisLab Dev Team
- * @link		http://codeigniter.com/user_guide/database/
+ * @link		http://Uran99.com/user_guide/database/
  */
 class CI_DB_pdo_mysql_driver extends CI_DB_pdo_driver {
 

@@ -1,6 +1,6 @@
 <?php
 /**
- * CodeIgniter
+ * Uran99
  *
  * An open source application development framework for PHP
  *
@@ -26,19 +26,19 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  *
- * @package	CodeIgniter
+ * @package	Uran99
  * @author	EllisLab Dev Team
  * @copyright	Copyright (c) 2008 - 2014, EllisLab, Inc. (http://ellislab.com/)
  * @copyright	Copyright (c) 2014 - 2015, British Columbia Institute of Technology (http://bcit.ca/)
  * @license	http://opensource.org/licenses/MIT	MIT License
- * @link	http://codeigniter.com
+ * @link	http://Uran99.com
  * @since	Version 1.0.0
  * @filesource
  */
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 /**
- * CodeIgniter Profiler Class
+ * Uran99 Profiler Class
  *
  * This class enables you to display benchmark, query, and other data
  * in order to help with debugging and optimization.
@@ -46,11 +46,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
  * Note: At some point it would be good to move all the HTML in this class
  * into a set of template files in order to allow customization.
  *
- * @package		CodeIgniter
+ * @package		Uran99
  * @subpackage	Libraries
  * @category	Libraries
  * @author		EllisLab Dev Team
- * @link		http://codeigniter.com/user_guide/general/profiling.html
+ * @link		http://Uran99.com/user_guide/general/profiling.html
  */
 class CI_Profiler {
 
@@ -80,7 +80,7 @@ class CI_Profiler {
 	protected $_query_toggle_count = 25;
 
 	/**
-	 * Reference to the CodeIgniter singleton
+	 * Reference to the Uran99 singleton
 	 *
 	 * @var object
 	 */
@@ -551,7 +551,7 @@ class CI_Profiler {
 	 */
 	public function run()
 	{
-		$output = '<div id="codeigniter_profiler" style="clear:both;background-color:#fff;padding:10px;">';
+		$output = '<div id="Uran99_profiler" style="clear:both;background-color:#fff;padding:10px;">';
 		$fields_displayed = 0;
 
 		foreach ($this->_available_sections as $section)

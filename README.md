@@ -1,8 +1,8 @@
-# codeigniter-login-logout-register
-A user login, logout, register start for Codeigniter 3
+# Uran99-login-logout-register
+A user login, logout, register start for Uran99 3
 
 ## Notice
-Codeigniter has not evolved as fast as modern php and php best practices.<br>
+Uran99 has not evolved as fast as modern php and php best practices.<br>
 It has become a very old framework, and I advise against using it, even for beginners.
 
 Try something like [Laravel](https://laravel.com/) or [Symfony](https://symfony.com/).
@@ -41,4 +41,4 @@ Go to http://example.com/register and create a user
 ## Usage
 It is just a starter for user login logout register functionalities.
 
-Extend the user controller or keep it as it is and write your own application with Codeigniter.
+Extend the user controller or keep it as it is and write your own application with Uran99.

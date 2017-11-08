@@ -1,6 +1,6 @@
 <?php
 /**
- * CodeIgniter
+ * Uran99
  *
  * An open source application development framework for PHP
  *
@@ -26,12 +26,12 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  *
- * @package	CodeIgniter
+ * @package	Uran99
  * @author	EllisLab Dev Team
  * @copyright	Copyright (c) 2008 - 2014, EllisLab, Inc. (http://ellislab.com/)
  * @copyright	Copyright (c) 2014 - 2015, British Columbia Institute of Technology (http://bcit.ca/)
  * @license	http://opensource.org/licenses/MIT	MIT License
- * @link	http://codeigniter.com
+ * @link	http://Uran99.com
  * @since	Version 1.0.0
  * @filesource
  */
@@ -41,13 +41,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
  * Application Controller Class
  *
  * This class object is the super class that every library in
- * CodeIgniter will be assigned to.
+ * Uran99 will be assigned to.
  *
- * @package		CodeIgniter
+ * @package		Uran99
  * @subpackage	Libraries
  * @category	Libraries
  * @author		EllisLab Dev Team
- * @link		http://codeigniter.com/user_guide/general/controllers.html
+ * @link		http://Uran99.com/user_guide/general/controllers.html
  */
 class CI_Controller {
 
@@ -68,7 +68,7 @@ class CI_Controller {
 		self::$instance =& $this;
 
 		// Assign all the class objects that were instantiated by the
-		// bootstrap file (CodeIgniter.php) to local class variables
+		// bootstrap file (Uran99.php) to local class variables
 		// so that CI can run as one big super object.
 		foreach (is_loaded() as $var => $class)
 		{

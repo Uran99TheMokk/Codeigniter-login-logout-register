@@ -1,6 +1,6 @@
 <?php
 /**
- * CodeIgniter
+ * Uran99
  *
  * An open source application development framework for PHP
  *
@@ -26,12 +26,12 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  *
- * @package	CodeIgniter
+ * @package	Uran99
  * @author	EllisLab Dev Team
  * @copyright	Copyright (c) 2008 - 2014, EllisLab, Inc. (http://ellislab.com/)
  * @copyright	Copyright (c) 2014 - 2015, British Columbia Institute of Technology (http://bcit.ca/)
  * @license	http://opensource.org/licenses/MIT	MIT License
- * @link	http://codeigniter.com
+ * @link	http://Uran99.com
  * @since	Version 1.0.0
  * @filesource
  */
@@ -42,11 +42,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
  *
  * Loads the base classes and executes the request.
  *
- * @package		CodeIgniter
- * @subpackage	CodeIgniter
+ * @package		Uran99
+ * @subpackage	Uran99
  * @category	Common Functions
  * @author		EllisLab Dev Team
- * @link		http://codeigniter.com/user_guide/
+ * @link		http://Uran99.com/user_guide/
  */
 
 // ------------------------------------------------------------------------
@@ -579,7 +579,7 @@ if ( ! function_exists('_error_handler'))
 	 * Error Handler
 	 *
 	 * This is the custom error handler that is declared at the (relative)
-	 * top of CodeIgniter.php. The main reason we use this is to permit
+	 * top of Uran99.php. The main reason we use this is to permit
 	 * PHP errors to be logged in our own log files since the user may
 	 * not have access to server logs. Since this function effectively
 	 * intercepts PHP errors, however, we also need to display errors
@@ -670,7 +670,7 @@ if ( ! function_exists('_shutdown_handler'))
 	 * Shutdown Handler
 	 *
 	 * This is the shutdown handler that is declared at the top
-	 * of CodeIgniter.php. The main reason we use this is to simulate
+	 * of Uran99.php. The main reason we use this is to simulate
 	 * a complete custom exception handler.
 	 *
 	 * E_STRICT is purposivly neglected because such events may have
